@@ -5,6 +5,7 @@ This theme developed by Yakir Sitbon.
 Big Thanks for Ariel Klikstein about css styles.
 
 *** Changelog ***
+----------
 
 1.0.*
 ----------
