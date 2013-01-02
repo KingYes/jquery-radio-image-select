@@ -5,6 +5,11 @@ This theme developed by [Yakir Sitbon](http://www.yakirs.net/).
 
 Big Thanks for Ariel Klikstein about css styles.
 
+Used:
+----------
+See `example/example.html` file.
+
+
 *** Changelog ***
 ----------
 
