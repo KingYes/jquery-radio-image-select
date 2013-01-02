@@ -2,6 +2,7 @@
  * Author: Yakir Sitbon.
  * Project Url: https://github.com/KingYes/jquery-radio-image-select
  * Author Website: http://www.yakirs.net/
+ * Version: 1.0
  **/
 
 (function($)
@@ -11,8 +12,6 @@
         var defaults = {
             imgItemClass: 'radioSelectImgItem',
             imgItemCheckedClass: 'radioSelectImgItemChecked',
-            wrapCheckedClass: 'radioImageSelectWrapChecked',
-            wrapClass: 'radioImageSelectWrap',
             hideLabel: true
         };
         
@@ -39,15 +38,12 @@
         {
             $(this)
                 .hide()
-                //.wrap('<div class="' + options.wrapClass + '" />')
                 .after('<img src="' + $(this).data('image') + '" alt="radio image" />')
             ;
-            
-            //var wrap = $(this).closest('div.' + options.wrapClass);
+
             var img = $(this).next('img');
             img.addClass(options.imgItemClass);
 
-            //$('label[for=' + $(this).attr('id') + ']').appendTo(wrap);
             if (options.hideLabel)
             {
                 $('label[for=' + $(this).attr('id') + ']').hide();
