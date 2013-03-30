@@ -707,6 +707,10 @@ textarea {
     *zoom: 1;
 }
 
+body {
+	margin: 10px;
+}
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    Theses examples override the primary ('mobile first') styles.
