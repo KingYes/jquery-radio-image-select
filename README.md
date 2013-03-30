@@ -1,11 +1,15 @@
 jQuery Radio Image Select
 ===============
 
-This plugin developed by [Yakir Sitbon](http://www.yakirs.net/).
+__What does this plugin do?__
 
-Big Thanks for Ariel Klikstein about css styles.
+This jQuery plugin lets you replace simple, native and boring radio buttons with more attractive ones using images. A live demo can be found below.
 
-Used:
+This jQuery plugin is developed and maintained by [Yakir Sitbon](http://www.yakirs.net/).
+
+A big thank-you goes out to Ariel Klikstein for his great work on the CSS.
+
+Usage:
 ----------
 See `example/example.html` file.
 
@@ -17,4 +21,4 @@ See `example/example.html` file.
 ----------
 * Added comments on js code.
 * Update some codes in the file.
-* Our first upload plugin to GitHub. We hope this work very good. :)
+* Our first upload plugin to GitHub. We hope it will work well for you. :)
