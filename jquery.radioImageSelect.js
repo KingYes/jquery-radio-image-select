@@ -1,10 +1,9 @@
-/**
+/*!
  * Author: Yakir Sitbon.
  * Project Url: https://github.com/KingYes/jquery-radio-image-select
  * Author Website: http://www.yakirs.net/
  * Version: 1.0.1
  **/
-
 (function($) {
 	// Register jQuery plugin.
 	$.fn.radioImageSelect = function( options ) {
