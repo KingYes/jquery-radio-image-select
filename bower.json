@@ -1,0 +1,12 @@
+{
+	"name": "jquery-radio-image-select",
+	"version": "1.0.1",
+	"main": "jquery.radioImageSelect.js",
+	"ignore": [
+		"example",
+		"README.md"
+	],
+	"dependencies": {
+		"jquery": ">= 1.8.3"
+	}
+}
