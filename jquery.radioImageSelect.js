@@ -68,7 +68,7 @@
 					// Prev to current radio input.
 					.prev('input[type="radio"]')
 					// Set checked attr.
-					.attr('checked', 'checked')
+					.prop('checked', true)
 					// Run change event for radio element.
 					.trigger('change');
 
