@@ -68,7 +68,9 @@
 					// Prev to current radio input.
 					.prev('input[type="radio"]')
 					// Set checked attr.
-					.prop('checked', true);
+					.prop('checked', true)
+					// Run change event for radio element.
+					.trigger('change');
 
 				// Firing the sync classes.
 				syncClassChecked($(this));
